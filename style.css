@@ -1,0 +1,66 @@
+:root{
+    --oddBox-color: #78909c;
+    --evenBox-color: #90a4ae;
+    --icons-color: #ffab40;
+}
+
+
+
+body{
+    background: url(img/mountains.jpeg) no-repeat center center/cover;
+    background-color: var(--oddBox-color);
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+#addNewDay:hover{
+    cursor: pointer;
+}
+
+
+.addNewMealBtn{
+    display: block;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+
+.statisticsDiv{
+    text-align: center;
+}
+
+.statisticsDiv h4{
+    font-weight: bold;
+    color: var(--icons-color);
+}
+
+.statisticsDiv p{
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+}
+.statsIcons{
+    font-size: 2.5rem;
+    font-weight: 100;
+}
+
+
+#daysList:first-child{
+    color: #fff;
+}
+.item-days:nth-child(odd){
+    background-color: var(--oddBox-color);
+} 
+.item-days:nth-child(even){
+    background-color: var(--evenBox-color);
+} 
+.item-days .material-icons{
+    color: var(--icons-color);
+}
+
+.card{
+    color:black;
+}
+
