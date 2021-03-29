@@ -14,6 +14,8 @@ Localstorage stores three types of objects:
  - DaysMealsArray
  
 Days object stores each day added to the app.
+
 Items object stores every meal added to the app.
+
 When a new day is added, it creates a new object of type DaysMealsArray. That particular day is stored in this object along with an empty array which will store items/meals associated with it. 
  
